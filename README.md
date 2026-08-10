@@ -1,16 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# WorldAtlas - Country Explorer
 
-Currently, two official plugins are available:
+A responsive React application to explore countries around the world. Search, filter, and view detailed information about any country including population, capital, currency, and languages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- 🔍 Search countries by name
+- 🌍 Filter countries by region
+- 📊 Detailed country info page (population, capital, subregion, currency, languages)
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- 🎨 Dark theme UI with gradient cards
 
-## React Compiler
+## Tech Stack
+- **React** – UI library
+- **React Router** – client-side routing
+- **Vite** – build tool and dev server
+- **CSS** – custom responsive styling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js installed on your system
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository
+```bash
+   git clone https://github.com/Diksha670/countryExplorer.git
+   cd countryExplorer
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Create a `.env` file in the root directory (refer to `.env.example`)
+   VITE_API_KEY=your_api_key_here
+4. Run the development server
+```bash
+   npm run dev
+```
+
+5. Open `http://localhost:5173` in your browser
