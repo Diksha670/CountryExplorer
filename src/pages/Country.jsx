@@ -18,7 +18,12 @@ export const Country=()=>{
             }
         );
         const data=await result.json()
-        console.log("API ",data)
+        console.log("API ",data);
+        console.log("Status ",result.status);
+        if(!result.ok)
+        {
+            throw new Error(`API Error: ${result.status}`)
+       }
         setCountrydata(data?.data.objects);
         console.log(data);
         }
