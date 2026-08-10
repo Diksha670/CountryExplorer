@@ -14,7 +14,7 @@ export const Header=()=>
             <div className="navbargrid">
             <div className="logo">
                 <NavLink to='/'>
-                <h1>WordAtlas</h1>
+                <h1>WorldAtlas</h1>
                 </NavLink>
 
             </div>
