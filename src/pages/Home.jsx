@@ -18,7 +18,7 @@ export const Home=()=>{
                 </button>
             </div>
             <div className="hero-image">
-                <img src="/public/images/World.png" alt="world image" className="banner-image"/>
+                <img src="/images/World.png" alt="world image" className="banner-image"/>
             </div>
             </div> 
         </main>
