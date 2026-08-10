@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1430000000,
+    "interestingFact": "India is the world's most populous country and home to the largest democracy."
+  },
+  {
+    "id": 2,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1410000000,
+    "interestingFact": "China has the world's largest high-speed rail network."
+  },
+  {
+    "id": 3,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 340000000,
+    "interestingFact": "The United States contains all five major climate zones."
+  },
+  {
+    "id": 4,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 216000000,
+    "interestingFact": "Brazil is home to most of the Amazon Rainforest."
+  },
+  {
+    "id": 5,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 124000000,
+    "interestingFact": "Japan consists of more than 14,000 islands."
+  },
+  {
+    "id": 6,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 27000000,
+    "interestingFact": "Australia is both a country and a continent."
+  },
+  {
+    "id": 7,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 41000000,
+    "interestingFact": "Canada has the longest coastline in the world."
+  },
+  {
+    "id": 8,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 115000000,
+    "interestingFact": "Egypt is home to the Great Pyramid of Giza."
+  },
+  {
+    "id": 9,
+    "countryName": "Iceland",
+    "capital": "Reykjavík",
+    "population": 400000,
+    "interestingFact": "Most of Iceland's energy comes from renewable sources."
+  }
+]
