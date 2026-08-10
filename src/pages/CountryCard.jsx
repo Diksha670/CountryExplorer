@@ -11,11 +11,11 @@ export const CountryCard=({country})=>
             <p className="card-title">{names.common.length>10?names.common.slice(0,15)+"...":names.common}</p>
             <p>
                 <span className="card-description">Population:</span>
-                {population.toLocaleString()}
+                {population?.toLocaleString()||"N/A"}
             </p>
              <p>
                 <span className="card-description">Region:</span>
-                {region}
+                {region||'N/A'}
             </p>
                         <p>
                 <span className="card-description">Capital:</span>
